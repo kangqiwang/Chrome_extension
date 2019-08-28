@@ -1,0 +1,924 @@
+.popup-size {
+    width: 312px;
+    background-color: #EFEFF3;
+    font-family: Lato;
+    margin: 0px;
+}
+
+
+
+body {
+    width: 312px;
+    background-color: #EFEFF3;
+    font-family: Lato;
+    margin: 0px;
+}
+
+
+/* --------Header Start ---------- */
+#chrome-ex #header-container {
+    height: 43px;	
+    width: 312px;	
+    background-color: #FFFFFF;	
+}
+
+#header-container .header {
+    height: 43px;
+}
+
+#header-container .header .icon {
+    height: 16px;	
+    width: 17px;	
+    color: #CFD0D1;	
+    margin-top: 14px;
+}
+
+
+#header-container .header .splitter {
+    box-sizing: border-box;	
+    height: 17.64px;	
+    width: 1px;	
+    border: 1px solid #CFD0D1;
+    display: inline-block;
+    vertical-align: super;
+    margin-right: 10px;
+    margin-top: 13px;
+}
+
+#header-container .header .logo {
+    margin: 10px 19px 6px 72px;
+}
+
+#header-container .iconContainer {
+    display: inline-block;
+    text-align: center;
+    height: 43px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 10px
+}
+
+
+
+
+#header-container .header .inlineFlex {
+    display: inline-flex
+}
+/* ----------- Header End ---------- */
+
+/* ----------- Key Input Start ----------*/
+#content-container {
+    border-radius: 12px;	
+    background-color: #EFEFF3;
+}
+
+#content-container .keyInput .keyMessage {
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 14px;	
+    line-height: 17px;
+    text-align: center;
+    margin: 42px 0px 25px 0px;
+}
+
+#content-container .keyInput .forgotMsg {
+    color: #909090;
+    font-family: Lato;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    margin: 0px;
+}
+
+#content-container .keyInput .forgotMsgUnder { 
+    box-sizing: border-box;
+    height: 2px;
+    width: 145px;
+    border: 1px solid #CCCCCC;
+    margin: auto;
+    margin-bottom: 7px;
+    margin-top: 3px;
+}
+
+#content-container .keyInput a {
+    cursor: pointer;
+}
+
+#content-container .keyInput .errorMessage {
+    color: rgba(255, 115, 115, 0.8313725490196079);	
+    font-family: Lato;	
+    font-size: 14px;	
+    line-height: 17px;
+    text-align: center;
+}
+
+#content-container .keyInput .keyInputBox {
+    height: 30px;
+    width: 240px;
+    border: 1px solid #E7E7E7;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #757575;
+
+}
+
+#content-container .keyInput .alignInput {
+    text-align: center;
+}
+
+#content-container .keyInput input[type=text]:focus {
+        outline-offset: 0px;
+        outline: none;
+        box-shadow: 0 0 2px 1px #3ab7fd42;
+}
+
+#content-container .keyInput .inputButtonCon {
+    text-align: center;
+    margin-bottom: 40px
+}
+
+#content-container .keyInput .inputButton {
+    height: 31px;
+    width: 142px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #6EC081;    
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+#content-container .keyInput .inputButton:hover {
+    background: #f46036ba
+}
+
+#content-container .keyInput .inputButton:focus {
+    outline-offset: 0px;
+    outline: none;
+}
+
+/* ----------- Key Input End ----------*/
+
+/* ----------- Search Start ---------*/
+
+#content-container .searchCon .searchSplit {
+    box-sizing: border-box;	
+    height: 2px;	
+    width: 312px;	
+    border: 1px 
+    solid #EFEFF3;
+}
+
+#content-container .searchCon .titleBox {
+    height: 40px;	
+    width: 312px;	
+    background-color: #FFFFFF;
+    display: inline-flex;	
+}
+
+#content-container .searchCon .titleBox .title {
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 17px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#content-container .searchCon .searchName {
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 14px;	
+    line-height: 17px;	
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+
+#content-container .searchCon .discountCode {
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 14px;	
+    line-height: 17px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 12px;
+
+}
+
+#content-container .searchCon .inputCon {
+    text-align: center;
+}
+
+#content-container .searchCon .inputClass {
+    height: 30px;
+    width: 230px;
+    border: 1px solid #E7E7E7;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #757575;
+    padding: 0px 7px;
+}
+
+#content-container .searchCon input[type=text]:focus, #content-container .searchCon input[type=number]:focus  {
+    outline-offset: 0px;
+    outline: none;
+    box-shadow: 0 0 2px 1px #3ab7fd42;
+}
+
+#content-container .searchCon .searchStartBtn {
+    height: 31px;	
+    width: 142px;	
+    border-radius: 8px;	
+    background-color: #6EC081;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-top: 23px;
+}
+
+#content-container .searchCon .searchStartBtn:hover {
+    background: #f46036ba
+}
+
+#content-container .searchCon .sitesWe {
+    color: #909090;
+    font-family: Lato;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 0px;
+}
+
+
+#content-container .searchCon .sitesWeUnder { 
+    box-sizing: border-box;
+    height: 2px;
+    width: 78px;
+    border: 1px solid #CCCCCC;
+}
+
+#content-container .searchCon .footerAlign .iconCon {
+  margin: -7.5% 0% 0% 25.5%;
+}
+
+#content-container .searchCon .underCon {
+    margin: -4% 0% 0% 37.5%;
+}
+
+#content-container .searchCon a {
+    cursor: pointer;
+}
+
+#content-container .searchCon .icon {
+    height: 16px;	
+    width: 17px;	
+    color: #CFD0D1;	
+}
+
+#content-container .searchCon .footerAlign {
+    display: inline-flex;
+    width: 312px;
+
+}
+
+
+/* ----------- Search End ---------*/
+
+
+/* ----------- Search In Progress Start ---------*/
+
+#content-container .searchIP .searchIPSplit {
+    box-sizing: border-box;	
+    height: 2px;	
+    width: 312px;	
+    border: 1px 
+    solid #EFEFF3;
+}
+
+#content-container .searchIP .recordingCircle {
+    height: 10px;	
+    width: 10px;	
+    background-color: #F2613E;
+    border-radius: 50px;
+    margin: 5px 0px 0px 13px;
+}
+
+#content-container .searchIP .titleBox {
+    height: 40px;	
+    width: 312px;	
+    background-color: #FFFFFF;
+    display: inline-flex;	
+}
+
+#content-container .searchIP .titleBox .title {
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 17px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+#content-container .searchIP .searchName {
+    width: 215px;	
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 17px;	
+    text-align: center;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: auto;
+    margin-top: 22px;
+}
+
+#content-container .searchIP .nextPage {
+    width: 215px;	
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 17px;	
+    text-align: center;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: auto;
+    margin-bottom: 22px;
+}
+
+#content-container .searchIP .refresh {
+    height: 25px;	
+    width: 25px;	
+    color: #CFD0D1;	
+    font-size: 50px;	
+    line-height: 50px;	
+    text-align: center;
+}
+
+#content-container .searchIP .tick {
+    height: 25px;
+    width: 25px;
+    color: #6EC081;	
+    font-size: 50px;	
+    line-height: 50px;	
+    text-align: center;
+}
+
+#content-container .searchIP .tickCon {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#content-container .searchIP .alreadyExists {
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 17px;	
+    text-align: center;
+    margin: auto;
+    margin-left: 15px;
+    margin-bottom: 22px;
+    margin-right: 15px;
+
+} 
+
+#content-container .searchIP .infoBox {
+    background: #FFFFFF;
+    display: block;
+}
+
+#content-container .searchIP .infoBox .iconCon {
+    text-align: center;
+}
+
+
+#content-container .searchIP .infoBox .iconCon .icon {
+    height: 16px;	
+    width: 17px;	
+    color: #CFD0D1;	
+    font-size: 16px;	
+    line-height: 16px;
+    text-align: center;
+    margin-top: 11px;
+}
+
+#content-container .searchIP .infoBox .tipText {
+    width: 243px;	
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 12px;	
+    line-height: 15px;	
+    text-align: center;
+    display: inline-flex;
+    margin: 9px 34.5px 25px 35.5px;
+}
+
+#content-container .searchIP .buttonCon {
+    text-align: center;
+    margin-top: 35px;
+}
+
+#content-container .searchIP .searchComplete {
+    height: 31px;	
+    width: 142px;	
+    border-radius: 8px;	
+    background-color: #6EC081;
+    font-family: Lato;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 17px;	
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0px 5px;
+
+}
+
+#content-container .searchIP .searchComplete:hover {
+    background: #f46036ba
+}
+
+#content-container .searchIP .discardSearch {
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 12px;	
+    font-weight: bold;
+    line-height: 15px;	
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+#content-container .searchIP .discardSearchUnder {
+    box-sizing: border-box;
+    height: 2px;
+    width: 80px;
+    border: 1px solid #CCCCCC;
+    margin: auto;
+    margin-bottom: 31px;
+}
+
+
+#content-container .searchIP .urlsCollected {
+    background: #ffffffff;
+    margin: 15px 0px;
+    height: 80px;
+    overflow-y: scroll;
+}
+
+#content-container .searchIP .urlsCollected li {
+    font-size: 13px;
+    margin: 5px 0px;
+    color: #60667f;
+    list-style: none;
+    background: #d2d2d28a;
+    padding: 5px 5px;
+}
+
+#content-container .searchIP .urlsCollected li:nth-child(even) {
+    background: #ffffff;
+}
+
+#content-container .searchIP .urlsCollected ul {
+    margin: 5px 5px;
+    padding: 0px;
+}
+
+
+
+/* ----------- Search In Progress End---------*/
+
+/* ----------- Search Stop Start---------*/
+#content-container .stopSearch .searchStopSplit {
+    box-sizing: border-box;	
+    height: 2px;	
+    width: 312px;	
+    border: 1px 
+    solid #EFEFF3;
+}
+
+#content-container .stopSearch .recordingCircle {
+    height: 10px;	
+    width: 10px;	
+    background-color: #F2613E;
+    border-radius: 50px;
+    margin: 5px 0px 0px 13px;
+}
+
+#content-container .stopSearch .titleBox {
+    height: 40px;	
+    width: 312px;	
+    background-color: #FFFFFF;
+    display: inline-flex;	
+}
+
+#content-container .stopSearch .titleBox .title {
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 17px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+#content-container .stopSearch .stopRecording {
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 14px;	
+    line-height: 17px;	
+    text-align: center;
+    margin-top: 22px;
+}
+
+#content-container .stopSearch .buttonCon {
+    text-align: center;
+    margin-top: 28px;
+}
+
+#content-container .stopSearch .buttonCon .buttonStop {
+    height: 31px;	
+    width: 142px;	
+    border-radius: 8px;
+    background-color: #F2613E;
+    border: none;
+    color: #ffffff;
+    font-family: Lato;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 17px;	
+    text-align: center;
+    cursor: pointer;
+}
+
+#content-container .stopSearch .buttonCon .buttonStop:hover {
+    background: #6EC081
+}
+
+#content-container .stopSearch .continueSearch {
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 12px;	
+    font-weight: bold;
+    line-height: 15px;	
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+#content-container .stopSearch .continueSearchUnder {
+    box-sizing: border-box;
+    height: 2px;
+    width: 119px;
+    border: 1px solid #CCCCCC;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+
+
+/* ----------- Search Stop End---------*/
+
+/* ----------- Search Complete Start ---------*/
+
+#content-container .searchComplete .searchCompleteSplit {
+    box-sizing: border-box;	
+    height: 2px;	
+    width: 312px;	
+    border: 1px 
+    solid #EFEFF3;
+}
+
+#content-container .searchComplete .titleBox {
+    height: 40px;	
+    width: 312px;	
+    background-color: #FFFFFF;
+    display: inline-flex;	
+}
+
+#content-container .searchComplete .titleBox .title {
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 17px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+#content-container .searchComplete .searchName {
+    width: 215px;	
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 17px;	
+    text-align: center;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: auto;
+    margin-top: 22px;
+}
+
+#content-container .searchComplete .tickCon {
+    text-align: center;
+    margin: auto;
+    margin-top: 27px;
+    margin-bottom: 35px;
+}
+
+#content-container .searchComplete .tick {
+    height: 50px;	
+    width: 57px;	
+    color: #6EC081;
+    font-size: 50px;	
+    line-height: 50px;	
+    text-align: center;
+}
+
+#content-container .searchComplete .infoBox {
+    background: #FFFFFF;
+    display: block;
+    margin-top: 22px;
+}
+
+#content-container .searchComplete .infoBox .iconCon {
+    text-align: center;
+}
+
+
+#content-container .searchComplete .infoBox .iconCon .icon {
+    height: 16px;	
+    width: 17px;	
+    color: #CFD0D1;	
+    font-size: 16px;	
+    line-height: 16px;
+    text-align: center;
+    margin-top: 11px;
+}
+
+#content-container .searchComplete .infoBox .tipText {
+    width: 243px;	
+    color: #5B667F;	
+    font-family: Lato;	
+    font-size: 12px;	
+    line-height: 15px;	
+    text-align: center;
+    display: inline-flex;
+    margin: 9px 34.5px 25px 35.5px;
+}
+
+#content-container .searchComplete .buttonCon {
+    text-align: center;
+    margin-top: 35px;
+}
+
+#content-container .searchComplete .goTo {
+    height: 31px;	
+    width: 142px;	
+    border-radius: 8px;	
+    background-color: #6EC081;
+    font-family: Lato;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 17px;	
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#content-container .searchComplete .goTo:hover {
+    background: #f46036ba
+}
+
+#content-container .searchComplete .startButtonCon {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* ----------- Search Complete End ---------*/
+
+
+/* --------- welcome page start --------------*/
+
+
+#header-container {
+    height: 43px;	
+    width: 312px;	
+    background-color: #FFFFFF;	
+}
+
+#welcome-page {
+    background-color: #EFEFF3;
+}
+
+#welcome-page .splitter {
+    box-sizing: border-box;	
+    height: 2px;	
+    width: 312px;	
+    border: 1px 
+    solid #EFEFF3;
+}
+
+#welcome-page h2 {
+    color: #5B667F;
+    font-family: Lato;
+    font-weight: bold;
+    line-height: 17px;
+    text-align: center;
+}
+
+#welcome-page p {
+    color: #5B667F;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin: 25px 35.5px 25px 35.5px;
+}
+
+#welcome-page a {
+    font-weight: 900!important;
+    color: #5B667F!important;
+    text-decoration: none!important;
+}
+
+
+
+/* --------- welcome page end --------------*/
+
+/* --------Generic -----------*/
+
+.reloadText {
+    color: #5B667F;	
+    font-family: Lato;
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 17px;	
+    text-align: center;
+}
+
+.reloadButton {
+    height: 31px;	
+    width: 142px;	
+    border-radius: 8px;	
+    background-color: #6EC081;
+    font-family: Lato;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 17px;	
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.reloadButton:hover {
+    background: #f46036ba
+}
+
+.reloadCon {
+    text-align: center;
+}
+
+.sitesWe {
+    color: #909090;
+    font-family: Lato;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 0px;
+}
+
+
+.sitesWeUnder { 
+    box-sizing: border-box;
+    height: 2px;
+    width: 78px;
+    border: 1px solid #CCCCCC;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.noStyle {
+    all: unset;
+}
+
+a {
+    cursor: pointer!important;
+}
+
+.startButton {
+    max-height: 100%;
+    max-width:108px;  
+    display: block;
+    margin-left: 46px;
+}
+.middlediv {
+    background: #EFEFF3;
+}
+.footer {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFF3;
+  }
+.titleImage {
+    background-color: #FFFFFF;
+    height: 43px;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+.imageLogo {
+    display:inline-block;
+    float: left;
+    height: 100%;
+    width: 60%;
+    margin: 5px;
+    display: inline-block;
+}
+.poweroff {
+    display:inline-block;
+    float: left;
+    height: 100%;
+    width: 15%;
+    margin: 5px;
+}
+.help {
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 15%
+}
+
+
+.buttonOn {
+    background-color:#FFFFFF;
+    text-align:center;
+}
+
+h1 {
+    font-size: 20px;
+}
+.searchElement {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+h2 {
+    font-size: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0; 
+}
+
+.buttonSupplier {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.buttonSupplier p{
+    font-size: 12px;
+}
+
+.notifications {
+    font-size: 12px;
+    color: #CB9252;
+    text-align: center;
+}

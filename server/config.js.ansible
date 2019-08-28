@@ -1,0 +1,21 @@
+module.exports = {
+	"port": "3333",
+	"mongoDb": {
+		db: "{{mongoDbDb}}",
+        host: "{{mongoDbHost}}",
+        port: {{mongoDbPort}},
+        url: "{{mongoDbUrl}}"
+	},
+		mongoDbBackend: {
+        db: "{{mongoDbDbBackend}}",
+        host: "{{mongoDbHostBackend}}",
+        port: {{mongoDbPortBackend}}
+    },
+	"es": {
+        "host" : "127.0.0.1:9200"
+    },
+    "redisStore" : {
+		"host": "127.0.0.1",
+		"port": 6379
+	}
+}

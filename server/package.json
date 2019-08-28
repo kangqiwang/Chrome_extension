@@ -1,0 +1,20 @@
+{
+  "name": "tse-chrome-dev-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "se-app-model": "^13.1.2",
+    "url": "^0.11.0",
+    "x4-model": "^17.3.0",
+    "x4-q": "^10.1.0"
+  }
+}
